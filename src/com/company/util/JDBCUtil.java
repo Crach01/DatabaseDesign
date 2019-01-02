@@ -26,12 +26,9 @@ public class JDBCUtil {
             url = properties.getProperty("url");
             name = properties.getProperty("name");
             password = properties.getProperty("password");
-
-
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     public static Connection getConn() {
@@ -89,7 +86,6 @@ public class JDBCUtil {
             ps = null;
         }
     }
-
     private static void closeSt(Statement st) {
         try{
             if(st != null){

@@ -4,6 +4,7 @@ package com.company.mainView;
 import com.company.Dao.impl.UserDaoImpl;
 import com.company.JSwing.DatabaseCourseDesign;
 import com.company.addPerson.addNewPerson;
+import com.company.extendFunction.log;
 import com.company.login.JSwingLogin;
 import com.company.personnelChange.personnelChange;
 
@@ -19,7 +20,7 @@ public class mainview extends JFrame implements ActionListener{
     public mainview(){
 
         this.setTitle("选择操作");
-        this.setSize(600,600);
+        this.setSize(600,700);
         this.setLocationRelativeTo(null);
 
         this.setLayout(null);
@@ -33,13 +34,15 @@ public class mainview extends JFrame implements ActionListener{
         JButton recover = new JButton("恢复员工记录");
         recover.setBounds(190,360 ,200 ,60 );
         JButton back = new JButton("返回登陆界面");
-        back.setBounds(190,460 ,200 ,60 );
+        back.setBounds(190,560 ,200 ,60 );
+        JButton logButton = new JButton("查询操作日志");
+        logButton.setBounds(190,460 ,200 ,60 );
 
 
         this.add(btn1);
         this.add(btn2);
-
         this.add(btn5);
+        this.add(logButton);
         this.add(recover);
         this.add(back);
         back.addActionListener(this::actionPerformed);
@@ -77,7 +80,12 @@ public class mainview extends JFrame implements ActionListener{
                 new recoverRecord();
             }
         });
-
+        logButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new log();
+            }
+        });
 
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 

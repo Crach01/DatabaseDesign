@@ -29,7 +29,7 @@ public class JSwingLogin  implements ActionListener{
         f.setLayout(null);
         f.setLocationRelativeTo(null);
 
-        JLabel welcome = new JLabel("欢迎使用员工管理系统");
+        JLabel welcome = new JLabel("欢迎使用人事管理系统");
         welcome.setFont(new Font("宋体", Font.PLAIN, 50));
         JTextField userName = new JTextField();
         JTextField password = new JPasswordField();

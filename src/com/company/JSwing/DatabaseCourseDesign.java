@@ -467,14 +467,11 @@ public class DatabaseCourseDesign extends JFrame implements ActionListener {
 
                 v.add(new UserDaoImpl().joinQuery("job", rs.getString("id")));
                 jTFJob.setText(new UserDaoImpl().joinQuery("job",rs.getString("id")));
-                //new UserDaoImpl().joinQuery("job", rs.getString("id"))
                 v.add(new UserDaoImpl().joinQuery("edu_level",rs.getString("id")));
                 jTFEdu.setText(new UserDaoImpl().joinQuery("edu_level",rs.getString("id")));
 
-                //v.add(rs.getString("spcialty"));
                 jTFSpecialty.setText(rs.getString("spcialty"));
 
-                //v.add(rs.getString("address"));
                 jTFAddress.setText(rs.getString("address"));
 
                 v.add(rs.getString("tel"));
@@ -483,10 +480,8 @@ public class DatabaseCourseDesign extends JFrame implements ActionListener {
                 v.add(rs.getString("email"));
                 jTFEmail.setText(rs.getString("email"));
 
-                //v.add(rs.getString("state"));
                 jTFState.setText(rs.getString("state"));
 
-               // v.add(rs.getString("remark"));
                 jTFRemark.setText(rs.getString("remark"));
 
                 studentVector.add(v);
@@ -503,11 +498,8 @@ public class DatabaseCourseDesign extends JFrame implements ActionListener {
 
     public void queryAllProcess() {
         String sql = "select * from person where isdeleted = 0;";
-        //System.out.println("queryAllProcess(). sql = " + sql);
         try {
-            // 建立查询条件
-            //dbProcess.connect();
-            //ResultSet rs = dbProcess.executeQuery(sql);
+
             ResultSet rs = new UserDaoImpl().executeQuery(sql);
             // 将查询获得的记录数据，转换成适合生成JTable的数据形式
             studentVector.clear();
@@ -518,25 +510,15 @@ public class DatabaseCourseDesign extends JFrame implements ActionListener {
                 v.add(rs.getString("name"));
 
                 v.add(rs.getString("sex"));
-                //v.add(Integer.valueOf(rs.getInt("class")));
-                //v.add(rs.getString("birthday"));
-                //v.add(rs.getString("department"));
                 v.add(new UserDaoImpl().joinQuery("department",rs.getString("id") ));
-                //v.add(rs.getString("job"));
                 v.add(new UserDaoImpl().joinQuery("job", rs.getString("id")));
 
-                //v.add(Integer.valueOf(rs.getInt("edu_level")));
                 v.add(new UserDaoImpl().joinQuery( "edu_level", rs.getString("id")));
-                //v.add(rs.getString("spcialty"));
-                //v.add(rs.getString("address"));
                 v.add(rs.getString("tel"));
                 v.add(rs.getString("email"));
-                //v.add(rs.getString("state"));
                 studentVector.add(v);
             }
             studentJTable.updateUI();
-            //connection.close();
-            //dbProcess.disconnect();
         } catch (SQLException sqle) {
             System.out.println("sqle = " + sqle);
             JOptionPane.showMessageDialog(null,

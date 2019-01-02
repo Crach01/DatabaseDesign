@@ -27,48 +27,48 @@
     <session id="-342832717">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="6" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="154" />
-          <entry key="properties" value="4" />
+          <entry key="java" value="167" />
+          <entry key="properties" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="154" />
-          <entry key="Properties" value="4" />
+          <entry key="JAVA" value="167" />
+          <entry key="Properties" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="29224" />
+          <entry key="java" value="29948" />
           <entry key="properties" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29224" />
+          <entry key="JAVA" value="29948" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="110" />
         </counts>
@@ -78,34 +78,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainview.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/JSwing/DatabaseCourseDesign.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="97">
+              <caret line="647" column="43" lean-forward="true" selection-start-line="647" selection-start-column="43" selection-end-line="647" selection-end-column="43" />
               <folding>
-                <element signature="method#actionPerformed#0;class#mainview#0" />
+                <element signature="e#22957#23677#0" />
+                <element signature="e#23683#24233#0" />
+                <element signature="e#24239#24809#0" />
+                <element signature="e#24287#24296#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Dao/impl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="method#executeQuery#0;class#UserDaoImpl#0" />
+                <element signature="method#joinQuery#0;class#UserDaoImpl#0" />
+                <element signature="method#changePasswd#0;class#UserDaoImpl#0" />
+                <element signature="method#count#0;class#UserDaoImpl#0" />
+                <element signature="method#executeUpdate#0;class#UserDaoImpl#0" />
+                <element signature="method#deletePerson#0;class#UserDaoImpl#0" />
+                <element signature="method#insertLog#0;class#UserDaoImpl#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mainView/passwordChange.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/util/JDBCUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="initializer##0;class#JDBCUtil#0" />
+                <element signature="method#getConn#0;class#JDBCUtil#0" />
+                <element signature="docComment;method#release#0;class#JDBCUtil#0" />
+                <element signature="method#release#0;class#JDBCUtil#0" />
+                <element signature="method#release#1;class#JDBCUtil#0" />
+                <element signature="method#release#2;class#JDBCUtil#0" />
+                <element signature="method#closeRs#0;class#JDBCUtil#0" />
+                <element signature="method#closePs#0;class#JDBCUtil#0" />
+                <element signature="method#closeSt#0;class#JDBCUtil#0" />
+                <element signature="method#closeConn#0;class#JDBCUtil#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainViewStaff.java">
+        <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -143,7 +173,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Home.java" />
         <option value="$PROJECT_DIR$/src/com/company/Whole.java" />
         <option value="$PROJECT_DIR$/src/com/company/addPerson/Whole.java" />
-        <option value="$PROJECT_DIR$/src/com/company/util/JDBCUtil.java" />
         <option value="$PROJECT_DIR$/src/com/company/JSwing/DbProcess.java" />
         <option value="$PROJECT_DIR$/src/com/company/JSwing/JSwingLogin.java" />
         <option value="$PROJECT_DIR$/src/com/company/test.java" />
@@ -151,18 +180,20 @@
         <option value="$PROJECT_DIR$/src/com/company/JSwing/popUp.java" />
         <option value="$PROJECT_DIR$/src/com/company/extendFunction/exportExcel.java" />
         <option value="$PROJECT_DIR$/src/com/company/Dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/company/login/JSwingLogin.java" />
-        <option value="$PROJECT_DIR$/src/com/company/addPerson/addNewPerson.java" />
         <option value="$PROJECT_DIR$/src/com/company/extendFunction/selectFile.java" />
         <option value="$PROJECT_DIR$/src/com/company/extendFunction/excelImport.java" />
         <option value="$PROJECT_DIR$/src/com/company/personnelChange/personnelChange.java" />
         <option value="$PROJECT_DIR$/src/com/company/personnelChange/personnelView.java" />
-        <option value="$PROJECT_DIR$/src/com/company/JSwing/DatabaseCourseDesign.java" />
         <option value="$PROJECT_DIR$/src/com/company/mainView/recoverRecord.java" />
         <option value="$PROJECT_DIR$/src/com/company/mainView/mainViewStaff.java" />
-        <option value="$PROJECT_DIR$/src/com/company/mainView/mainview.java" />
         <option value="$PROJECT_DIR$/src/com/company/mainView/passwordChange.java" />
+        <option value="$PROJECT_DIR$/src/com/company/extendFunction/log.java" />
+        <option value="$PROJECT_DIR$/src/com/company/login/JSwingLogin.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Dao/impl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/addPerson/addNewPerson.java" />
+        <option value="$PROJECT_DIR$/src/com/company/mainView/mainview.java" />
+        <option value="$PROJECT_DIR$/src/com/company/JSwing/DatabaseCourseDesign.java" />
+        <option value="$PROJECT_DIR$/src/com/company/util/JDBCUtil.java" />
       </list>
     </option>
   </component>
@@ -179,7 +210,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="9" />
+    <option name="x" value="40" />
+    <option name="y" value="-8" />
     <option name="width" value="1890" />
     <option name="height" value="1020" />
   </component>
@@ -188,6 +220,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,8 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,7 +255,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/18451/Desktop/databaseDesign/src/com/company/JSwing/DatabaseCourseDesign.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546072864196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546399872818" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/commons-compress-1.18.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -251,6 +283,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="DatabaseCourseDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.JSwing.DatabaseCourseDesign" />
+      <module name="databaseDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.JSwing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="databaseDesign" />
@@ -277,6 +322,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="log" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.extendFunction.log" />
+      <module name="databaseDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.extendFunction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mainview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.mainView.mainview" />
       <module name="databaseDesign" />
@@ -290,46 +348,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="passwordChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.mainView.passwordChange" />
-      <module name="databaseDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.mainView.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="personnelView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.personnelChange.personnelView" />
-      <module name="databaseDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.personnelChange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.personnelView" />
-      <item itemvalue="Application.addNewPerson" />
-      <item itemvalue="Application.passwordChange" />
       <item itemvalue="Application.mainview" />
+      <item itemvalue="Application.log" />
+      <item itemvalue="Application.addNewPerson" />
+      <item itemvalue="Application.DatabaseCourseDesign" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DatabaseCourseDesign" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.passwordChange" />
-        <item itemvalue="Application.mainview" />
         <item itemvalue="Application.addNewPerson" />
-        <item itemvalue="Application.personnelView" />
+        <item itemvalue="Application.mainview" />
+        <item itemvalue="Application.log" />
       </list>
     </recent_temporary>
   </component>
@@ -362,12 +394,14 @@
       <workItem from="1545955750275" duration="10885000" />
       <workItem from="1545976462876" duration="13069000" />
       <workItem from="1546042923256" duration="9411000" />
-      <workItem from="1546065088202" duration="7750000" />
+      <workItem from="1546065088202" duration="10152000" />
+      <workItem from="1546388633070" duration="2054000" />
+      <workItem from="1546397088705" duration="2745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158045000" />
+    <option name="totallyTimeSpent" value="165246000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,7 +416,7 @@
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.261924" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26596606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.2497979" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -468,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Whole.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/addPerson/Whole.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/JSwing/DbProcess.java" />
@@ -496,13 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/util/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -539,9 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="33" column="35" lean-forward="true" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,34 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="40" column="10" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/extendFunction/selectFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/extendFunction/excelImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#depN#0;class#excelImport#0" />
-            <element signature="method#eduQ#0;class#excelImport#0" />
-            <element signature="method#jobN#0;class#excelImport#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,47 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/addPerson/addNewPerson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2462">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/personnelChange/personnelView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1129">
-          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="method#queryProcess#0;class#personnelView#0" />
-            <element signature="method#queryAll#0;class#personnelView#0" />
-            <element signature="method#joinQueryPerson#0;class#personnelView#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/JSwing/DatabaseCourseDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="334" column="47" selection-start-line="334" selection-start-column="47" selection-end-line="334" selection-end-column="47" />
-          <folding>
-            <element signature="e#2730#11177#0" />
-            <element signature="e#11182#13515#0" />
-            <element signature="e#13521#13647#0" />
-            <element signature="e#13653#16855#0" />
-            <element signature="e#16861#18650#0" />
-            <element signature="e#18657#20652#0" />
-            <element signature="e#20658#21378#0" />
-            <element signature="e#21384#21934#0" />
-            <element signature="e#21940#22510#0" />
-            <element signature="e#22516#23264#0" />
-            <element signature="e#23270#23893#0" />
-            <element signature="e#23899#24708#0" />
-            <element signature="e#24714#26037#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,23 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/login/JSwingLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="106" column="23" lean-forward="true" selection-start-line="104" selection-start-column="24" selection-end-line="106" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/personnelChange/personnelChange.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -686,12 +617,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/jdk-10/lib/src.zip!/java.desktop/java/awt/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="383" column="40" selection-start-line="383" selection-start-column="40" selection-end-line="383" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/login/JSwingLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="82" column="50" lean-forward="true" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/passwordChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainViewStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/extendFunction/excelImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#depN#0;class#excelImport#0" />
+            <element signature="method#eduQ#0;class#excelImport#0" />
+            <element signature="method#jobN#0;class#excelImport#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/extendFunction/selectFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/extendFunction/log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/personnelChange/personnelView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="34" />
+          <folding>
+            <element signature="method#queryProcess#0;class#personnelView#0" />
+            <element signature="method#actionPerformed#0;class#personnelView#0" />
+            <element signature="method#joinQueryPerson#0;class#personnelView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/addPerson/addNewPerson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="301" lean-forward="true" selection-start-line="301" selection-end-line="301" />
+          <folding>
+            <element signature="e#6858#8221#0" />
+            <element signature="e#8226#10074#0" />
+            <element signature="e#10160#10424#0" />
+            <element signature="e#10429#11053#0" />
+            <element signature="e#11059#11367#0" />
+            <element signature="e#11373#11956#0" />
+            <element signature="e#12010#12081#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="method#actionPerformed#0;class#mainview#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/JSwing/DatabaseCourseDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="647" column="43" lean-forward="true" selection-start-line="647" selection-start-column="43" selection-end-line="647" selection-end-column="43" />
+          <folding>
+            <element signature="e#22957#23677#0" />
+            <element signature="e#23683#24233#0" />
+            <element signature="e#24239#24809#0" />
+            <element signature="e#24287#24296#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Dao/impl/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="162" column="13" lean-forward="true" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
+        <state relative-caret-position="104">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
           <folding>
-            <element signature="method#login#0;class#UserDaoImpl#0" />
             <element signature="method#executeQuery#0;class#UserDaoImpl#0" />
             <element signature="method#joinQuery#0;class#UserDaoImpl#0" />
             <element signature="method#changePasswd#0;class#UserDaoImpl#0" />
@@ -703,30 +758,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainViewStaff.java">
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/mainview.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/util/JDBCUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="240">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
-            <element signature="method#actionPerformed#0;class#mainview#0" />
+            <element signature="initializer##0;class#JDBCUtil#0" />
+            <element signature="method#getConn#0;class#JDBCUtil#0" />
+            <element signature="docComment;method#release#0;class#JDBCUtil#0" />
+            <element signature="method#release#0;class#JDBCUtil#0" />
+            <element signature="method#release#1;class#JDBCUtil#0" />
+            <element signature="method#release#2;class#JDBCUtil#0" />
+            <element signature="method#closeRs#0;class#JDBCUtil#0" />
+            <element signature="method#closePs#0;class#JDBCUtil#0" />
+            <element signature="method#closeSt#0;class#JDBCUtil#0" />
+            <element signature="method#closeConn#0;class#JDBCUtil#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/mainView/passwordChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="27" column="49" lean-forward="true" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
         </state>
       </provider>
     </entry>

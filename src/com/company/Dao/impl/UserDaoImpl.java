@@ -23,12 +23,12 @@ public class UserDaoImpl implements UserDao {
         ResultSet rs = null;
         String sql = null;
         if (userName.equals("root") && flag == 1) {
-            sql = "select * from t_user where username = ? and password = ?";
+            sql = "select * from t_user where username = ? and password = ? ;";
         } else {
             if (flag == 1) {
-                sql = "select * from person where id = ? and passwd = ?  and authority = '1' ";
+                sql = "select * from person where id = ? and passwd = ?  and authority = '1' ;";
             } else if (flag == 2) {
-                sql = "select * from person where id = ? and passwd = ? and authority = '2' ";
+                sql = "select * from person where id = ? and passwd = ?  ;";
             }
         }
 
